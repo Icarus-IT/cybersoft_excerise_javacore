@@ -15,12 +15,11 @@ public class Num21 {
 		int v2 = sc.nextInt();
 		double result = (double)(x02-x01)/(v1-v2);
 		if (result %1==0&&result>0) {
-			System.out.println("OK");
+			System.out.println("Gặp được");
 			System.out.println(result);
 		}
 		else {
-			System.out.println(result);
-			System.out.println("KO");
+			System.out.println("Không gặp được");
 		}
 	}
 }
