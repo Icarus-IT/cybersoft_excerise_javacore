@@ -16,7 +16,7 @@ public class Num13 {
 		int[] arr = new int[n];
 		
 		//----------------------------------
-		int sum=0;
+		float sum=0;
 		int maxval = Integer.MIN_VALUE;
 		int minval = Integer.MAX_VALUE;
 		int maxpos=-1;
