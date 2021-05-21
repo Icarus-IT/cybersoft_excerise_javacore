@@ -20,7 +20,7 @@ public class Num20 {
 		for (int i=0;i<n;i++) {
 			System.out.print("Nhập vào phần tử thứ "+(i+1)+" của mảng:");
 			arr[i]=sc.nextInt();
-			if (arr[i]%2==1) odd.add(arr[i]);
+			if (arr[i]%2!=0) odd.add(arr[i]);
 			else even.add(arr[i]);
 		}
 		System.out.print("Mảng vừa nhập là:");
