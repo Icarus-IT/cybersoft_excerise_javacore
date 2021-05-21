@@ -8,9 +8,12 @@ public class Num7 {
 		System.out.print("Nhập số: ");
 		String s = sc.nextLine();
 		int n = 0;
+		
 		if (checkInt(s)) {
 			n = Integer.parseInt(s);
+			
 			System.out.println("Các ước của số vừa nhập là");
+			if (n==0) System.out.println("1");
 			for (int i = 1; i<=n;i++) {
 				if (n%i==0) {
 					if (i==n) {
